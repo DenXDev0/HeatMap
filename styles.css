@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9fafb;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  h1 {
+    margin-bottom: 5px;
+  }
+  
+  #description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  svg {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .cell {
+    stroke: #e0e0e0;
+    stroke-width: 0.5;
+    transition: all 0.2s ease-out;
+  }
+  
+  .cell:hover {
+    stroke: #000;
+    stroke-width: 1;
+  }
+  
+  #tooltip {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+  
+  #legend rect {
+    stroke: #fff;
+  }
+  
+  .legend-label {
+    font-size: 12px;
+    fill: #333;
+  }
+  
