@@ -1,4 +1,4 @@
-# 📋 Monthly Global Land-Surface Temperature Heat Map
+# 📋 Heat Map
 
 This project visualizes monthly global land-surface temperature data from 1753 to 2015. It presents a heat map showing temperature variations across years and months, using D3.js for dynamic, interactive visualization.
 
